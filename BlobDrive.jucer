@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="gHCF4t" name="BlobDrive" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="AKGigi">
+  <MAINGROUP id="WvPQxy" name="BlobDrive">
+    <GROUP id="{12AAF6F0-694E-130B-13E3-F9055D5B080D}" name="Source">
+      <GROUP id="{6AD2305A-2F0C-B901-056A-BAC31FD62EE2}" name="Components">
+        <FILE id="M3xwrx" name="FilmStripKnob.h" compile="0" resource="0" file="Source/Components/FilmStripKnob.h"/>
+        <FILE id="pRYTz9" name="FunctionGraph.cpp" compile="1" resource="0"
+              file="Source/Components/FunctionGraph.cpp"/>
+        <FILE id="EAF2nz" name="FunctionGraph.h" compile="0" resource="0" file="Source/Components/FunctionGraph.h"/>
+      </GROUP>
+      <FILE id="UBV1Ru" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="Iyc36z" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="ei1e9R" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="Mck1Py" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <GROUP id="{FF0BCB17-5C1A-A03E-840B-2695B059B624}" name="Resources">
+      <FILE id="dmzVQz" name="LoadImg.png" compile="0" resource="1" file="Resources/LoadImg.png"/>
+      <FILE id="iBEHfp" name="SaveImg.png" compile="0" resource="1" file="Resources/SaveImg.png"/>
+      <FILE id="SlzmlI" name="BackGround.png" compile="0" resource="1" file="Resources/BackGround.png"/>
+      <FILE id="dbXs0r" name="ledOffImg.png" compile="0" resource="1" file="Resources/ledOffImg.png"/>
+      <FILE id="gUSdIi" name="linesOnImg.png" compile="0" resource="1" file="Resources/linesOnImg.png"/>
+      <FILE id="ZVG3mG" name="linesOffImg.png" compile="0" resource="1" file="Resources/linesOffImg.png"/>
+      <FILE id="UBLJBR" name="ledOnImg.png" compile="0" resource="1" file="Resources/ledOnImg.png"/>
+      <FILE id="FUOgTg" name="evenImg.png" compile="0" resource="1" file="Resources/evenImg.png"/>
+      <FILE id="NJu82G" name="oddImg.png" compile="0" resource="1" file="Resources/oddImg.png"/>
+      <FILE id="dctdXI" name="HPFImg.png" compile="0" resource="1" file="Resources/HPFImg.png"/>
+      <FILE id="IJ6vGb" name="LPFImg.png" compile="0" resource="1" file="Resources/LPFImg.png"/>
+      <FILE id="CMFT4c" name="MenuImg.png" compile="0" resource="1" file="Resources/MenuImg.png"/>
+      <FILE id="kPZwDR" name="volumeKnobImg.png" compile="0" resource="1"
+            file="Resources/volumeKnobImg.png"/>
+      <FILE id="kTFFuG" name="highKnobImg.png" compile="0" resource="1" file="Resources/highKnobImg.png"/>
+      <FILE id="UNYm8m" name="DeleteImg.png" compile="0" resource="1" file="Resources/DeleteImg.png"/>
+      <FILE id="dJzYv7" name="midhighKnobImg.png" compile="0" resource="1"
+            file="Resources/midhighKnobImg.png"/>
+      <FILE id="oxf7ak" name="midlowKnobImg.png" compile="0" resource="1"
+            file="Resources/midlowKnobImg.png"/>
+      <FILE id="W44dpV" name="lowKnobImg.png" compile="0" resource="1" file="Resources/lowKnobImg.png"/>
+      <FILE id="pA2Lcc" name="drywetKnobImg.png" compile="0" resource="1"
+            file="Resources/drywetKnobImg.png"/>
+      <FILE id="ET81vE" name="g1KnobImg.png" compile="0" resource="1" file="Resources/g1KnobImg.png"/>
+      <FILE id="zvU2YT" name="g2KnobImg.png" compile="0" resource="1" file="Resources/g2KnobImg.png"/>
+      <FILE id="EtwSGQ" name="FilterKnobImg.png" compile="0" resource="1"
+            file="Resources/FilterKnobImg.png"/>
+      <FILE id="pvd8iy" name="SamplingKnobImg.png" compile="0" resource="1"
+            file="Resources/SamplingKnobImg.png"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="BlobDrive"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="BlobDrive"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../../../../../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../../../../../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
