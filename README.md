@@ -35,8 +35,8 @@ Lastly, the "save/load box" (8) gives the user the possibility to upload a defau
 
 ## Plug-in Usage and Compatibility
 ---
-To use the plug-in, please open BlobDrive.jucer with Visual Studio or Xcode (make sure that the Source and Resources folders are present, otherwise add them manually) and build the plug-in.   
-We recommend the use of the DAW Reaper for best plug-in performance, but we also tested it with other DAWs (FL Studio, Logic, Garage Band).
+To use the plug-in, please open BlobDrive.jucer with Visual Studio or Xcode (make sure that the Source and Resources folders are present, otherwise add them manually; moreover the Juce DSP module must be ticked in the .jucer file) and build the plug-in.   
+We tested it with DAWs such as Reaper, FL Studio, Logic, Garage Band, Ableton, without encountering any major issue. Let us know if you find any kind of bug with other frameworks.
 Once you have built it, we also recommend to move it the in your system file folder.
 
 ## Group Components
