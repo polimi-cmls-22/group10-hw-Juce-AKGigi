@@ -14,8 +14,10 @@ BlobDrive is distortion plug-in implemented with the application framework JUCE 
 In the GitHub repository you will find two folders: 
 - Resources
 - Source
+- BlobDrive.jucer
 
 In the resources folder you will find the images needed to build the GUI. In the source folder you will find the code components and the main code. 
+The .jucer file is the one necessary to build the plugin.
 
 ## GUI Instructions
 ---
@@ -35,6 +37,7 @@ Lastly, the "save/load box" (8) gives the user the possibility to upload a defau
 ---
 To use the plug-in, please open BlobDrive.jucer with Visual Studio or Xcode (make sure that the Source and Resources folders are present, otherwise add them manually) and build the plug-in.   
 We recommend the use of the DAW Reaper for best plug-in performance, but we also tested it with other DAWs (FL Studio, Logic, Garage Band).
+Once you have built it, we also recommend to move it the in your system file folder.
 
 ## Group Components
 ---
